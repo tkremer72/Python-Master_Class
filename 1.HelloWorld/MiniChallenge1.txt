@@ -1,0 +1,13 @@
+# Mini Challenge 1
+Add some code to the program, so that it prints out we win
+Each character should appear on a separate line
+The program should get the characters from the parrot string, using indexing
+The w is already printed out, you just need to print out the remaining 5 characters
+With the text that is already being printed, the final output from the program should be:
+Norwegian Blue
+w
+e
+
+w
+i
+n

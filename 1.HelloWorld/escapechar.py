@@ -11,15 +11,19 @@ print()
 # or
 print("The pet shop owner said \"No, no, 'e's uh,...he's resting\".")
 print()
-print("""The pet shop owner said "No, no, 'e's uh,...he's resting". """)
+print("""The pet shop owner said "No, no, \
+'e's uh,...he's resting". """)
 print()
 
 anotherSplitString = """This string has been \
 split over \
 several \
-lines""" #backslashes above escape the end of the line
+lines"""
+#  backslashes above escape the end of the line
 
 print(anotherSplitString)
 
 print()
-
+# Examples of including the backslash character in your string
+print("C: \\Users\\tbone7243\\notes.txt")
+print(r"C: \Users\tbone7243\notes.txt")

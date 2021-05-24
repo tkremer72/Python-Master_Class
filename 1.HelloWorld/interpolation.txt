@@ -1,0 +1,8 @@
+# String interpolation
+
+%d = decimal
+%f = float
+%s = string
+%x = hexadecimal
+%o = octal
+%e = scientific notification

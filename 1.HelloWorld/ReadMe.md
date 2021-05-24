@@ -28,5 +28,13 @@ underscore _ character.
 variables.
     Variables are created when they are first attached to a value, using =
 
+# What is a sequence?
+A sequence is defined as an ordered set of items
+
+For example, the string "Hello World!" contains 12 items, and each item is a character
+
+A list is also a sequence type.  For example, here's a Python list of things you might need,
+when buying a new computer:
+["computer", "monitor", "keyboard", "mouse", "mouse pad"]
 
 

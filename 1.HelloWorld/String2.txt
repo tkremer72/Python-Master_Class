@@ -1,0 +1,72 @@
+All the code up to step in a slice
+
+print(parrot)
+
+print(parrot[-11:-9])
+
+print(parrot[3])
+# mini challenge below
+print(parrot[4])
+print(parrot[9])
+print(parrot[3])
+print(parrot[6])
+print(parrot[8])
+
+print()
+# Mini mini challenge
+print(parrot[-11])
+print(parrot[-10])
+print(parrot[-5])
+print(parrot[-11])
+print(parrot[-8])
+print(parrot[-6])
+print()
+# below is another way to do the above
+print(parrot[3 - 14])
+print(parrot[4 - 14])
+print(parrot[9 - 14])
+print(parrot[3 - 14])
+print(parrot[6 - 14])
+print(parrot[8 - 14])
+print()
+# norweg start at zero and include up to but not inlcuding 6
+print(parrot[0:6])
+# we
+print(parrot[3:5])
+# Norwegian
+print(parrot[0:9])
+#below shortcuts above
+print(parrot[:9])
+# challenge slice out the word blue from the string
+print(parrot[10:14])
+print(parrot[10:])
+# don't forget the colon that separates the numbers
+print()
+print(parrot[:6])
+print(parrot[6:])
+
+print(parrot[:6] + parrot[6:])
+# Below prints the whole string because if you don't provide a start value it starts at the beginning
+# if you don't provide a stop value it goes to the end
+print(parrot[:])
+#          01234567890123456789012345
+letters = "abcdefghijklmnopqrstuvwxyz"
+# use indexing the letters to print my name
+print(letters[19])
+print(letters[7])
+print(letters[14])
+print(letters[12])
+print(letters[0])
+print(letters[18])
+print(letters[19] + letters[7] + letters[14] + letters[12] + letters[0] + letters[18])
+
+print(letters[0:14])
+print(letters[:14])
+print(letters[14:26])
+print(letters[14:])
+print()
+# Bl
+print(parrot[-4:-2])
+# Bl
+print(parrot[-4:12])
+print(parrot[-14:-8])

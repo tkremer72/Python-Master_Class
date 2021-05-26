@@ -1,0 +1,7 @@
+Mini Challenge
+
+What happens if we:
+    1. Indent the print("-" * 20) line another 4 spaces?
+        prints the dashes under each iteration of the print on line three
+    2. Remove the indent completely for that line?
+        prints the dashes after the program is finished iterating over all of the numbers 1-12

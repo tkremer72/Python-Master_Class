@@ -1,0 +1,17 @@
+Adding items to lists
+We have some data that contains a mixture of flowers and shrubs, in a
+list.
+
+Our customer would like two speparate lists
+
+One, called flowers, will contain only flowers, and the other not
+surprisingly called shrubs, must contain only shrubs.
+
+Write the code to populate the two lists with the appropriate plants
+from data.
+
+The strings in the lists should remain unchanged.  If you decide to
+delete "-Flower" and "-Shrub" from the strings, that's a great
+improvement but isn't required to complete this exercise.  But be
+warned, the on-line checker will fail your code if you attempt to delete
+those redundant characters but leave a trailing space in the strings.

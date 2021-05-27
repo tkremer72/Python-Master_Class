@@ -1,47 +1,20 @@
-answer = 5
+import random
 
-print("Please guess a number between 1 and 10: ")
-guess = int(input())
-if guess == answer:
-    print("You guessed the number on your first try!")
-else:
-    if guess < answer:
-        print("Please guess higher!")
-    else:
-        print("Please guess lower!")
+highest = 1000
+answer = random.randint(1, highest)
+print(answer)  # TODO: Remove after testing.
+#  modify game to use a while loop to allow the player to continue guessing if guess is wron
+print("Please guess a number between 1 and {}: ".format(highest))
+guess = 0  # initialize to any number that isn't the answer
+while guess != answer:
     guess = int(input())
+    if guess == 0:
+        break
     if guess == answer:
         print("Well done, you guessed the number!")
+        break
     else:
-        print("Sorry, you have not guessed correctly!")
-
-# if guess != answer:
-#     if guess < answer:
-#         print("Please guess higher!")
-#     else:  # guess must be greater than answer
-#         print("Please guess lower!")
-#     guess = int(input())
-#     if guess == answer:
-#         print("Well done, you guessed the number!")
-#     else:
-#         print("Sorry you have not guessed correctly!")
-# else:
-#     print("You got it on your first try!")
-
-
-# if guess < answer:
-#     print("Please guess higher!")
-#     guess = int(input())
-#     if guess == answer:
-#         print("Well done, you guessed it!")
-#     else:
-#         print("Sorry you have not guessed correctly!")
-# elif guess > answer:
-#     print("Please guess lower!")
-#     guess = int(input())
-#     if guess == answer:
-#         print("Well done, you guessed it!")
-#     else:
-#         print("Sorry you have not guessed correctly!")
-# else:
-#     print("You guessed the number on your first try!")
+        if guess < answer:
+            print("Please guess higher!")
+        else:
+            print("Please guess lower!")

@@ -1,0 +1,14 @@
+Nested List Challenge
+
+Write code to print out all the meals in the menu, but with spam removed.
+
+You can choose which approach you want to use:
+    Remove spam from each list, then print the list
+    Print out the items in each list, as long as it's not spam
+
+You may want to write two sets of code, using both approaches.
+
+It's up to you how you format the output.  What's important is that you
+produce eight meals without spam.
+
+

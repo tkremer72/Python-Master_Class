@@ -1,0 +1,41 @@
+Code removed to start the Nested Lists & Code Style section
+
+sorted_numbers = sorted(numbers)
+print(sorted_numbers)
+print(numbers)
+
+digits = list("432985617")
+print(digits)
+
+# more_numbers = list(numbers) # using a list is a way to copy a list
+# more_numbers = numbers[:] # create a new list with slice
+more_numbers = numbers.copy() # create a copy of the list
+print(more_numbers)
+print(numbers is more_numbers) # compares the lists
+print(numbers == more_numbers)
+
+
+# even.extend(odd)
+# print(even)
+#
+# another_even = even
+# print(another_even)
+#
+# even.sort(reverse=True)
+# print(even)
+# print(another_even)
+# print(min(even))  # 2
+# print(max(even))  # 8
+# print("*" * 5)
+# print(min(odd))  # 1
+# print(max(odd))  # 9
+# print("*" * 5)
+# print(len(even))  # 4
+# print("*" * 5)
+# print(len(odd))  # 5
+# print("*" * 5)
+#
+# print()
+# print("mississippi".count("iss"))
+# print("*" * 5)
+# print()

@@ -8,3 +8,8 @@ year = "2021"
 print(name, age, "Python", 2021)
 print("*" * 20)
 print(name, age, "Python", 2021, sep=", ")  # adds a comma to separate the print out
+
+# tuples example.
+print((name, age, "Python", 2021)) # must use parenthesis when using a tuple here.
+
+

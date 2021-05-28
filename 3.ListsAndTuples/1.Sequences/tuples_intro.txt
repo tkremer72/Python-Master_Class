@@ -1,0 +1,37 @@
+Tuple are immutable
+There are another couple of reasons for preferring a tuple over a list.
+Both reasons are due to tuples being immutable.
+
+the first reason is to protect the integrity of your data.
+
+We've seen that attempting to change the value of a tuple gave an error
+because tuples can't be changed.
+
+Advantages of tuples
+Using a tuple, for things that shouldn't change, can help prevent bugs
+in your programs
+Whe we tried to alter the tuple earlier, the program crashed.  Obviously
+that's not good, but it's something that we'd spot when testing the code
+
+Whe we used a list, the program didn't crash, and we ended up with
+incorrect data.  That could be far worse than the program crashing.
+
+I know this example is only the year that an album was released, but
+what if we were displaying the medicines that could be used to treat a
+certain disease?
+A doctor, relying on our program, might prescribe something totally
+unsuitable - with possibly fatal consequences.
+
+If your code attempts to change one of the fields in a tuple, your code
+will fail.  That will highlight something that your code probably should
+not be doing.
+
+The second advantage of tuples, is that you can always unpack them
+successfully.
+
+Because a tuple can't be changed, you always know how many items there
+are to unpack.
+
+That's why this is described as unpacking a tuple, even though you can
+unpack any sequence type.
+

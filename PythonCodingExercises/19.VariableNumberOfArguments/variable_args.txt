@@ -1,0 +1,23 @@
+Coding exercise 19. Variable number of arguments
+
+Write a function to calculate the sum of all numbers passed as its
+arguments.
+
+Your function should be called sum_numbers and should take a single
+argument: the value to sum up to.
+
+Don't forget your Docstring
+
+The parameters and return value must be annotated.  Be careful here, you
+may want to review the lecture Function annotation and type hints, or
+check PEP 484 to see what it says about annotationg numerical arguments
+and return types.
+
+Test the function with the following values.
+
+values                      Result
+1, 2, 3                     6
+8, 20, 2                    30
+12.5, 3.147, 98.1           113.747
+1.1, 2.2, 5.5               8.8
+

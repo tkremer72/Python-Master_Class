@@ -1,0 +1,33 @@
+Change the for loop from coding exercise 17 so that it is using the
+function and allowing the user and the computer to take turns.
+
+Pseudocode:
+
+Calculate the computer's number(which may be a number, "fizz", "buzz",
+or "fizz buzz")
+
+Print the computers response.
+
+Calculate the players response.
+
+Calculate the players correct answer.
+
+Get input from the player.
+
+compare the correct answer to the players input.
+
+Repeat until the player makes a mistake, or the game reaches 100
+
+Print a suitable message: "Congratulations!" or "Wrong!"
+
+Call fizz_buzz() and print the result
+(Need to pass a variable to fizz_buzz)
+Calculate the players correct answer
+(Increment the variable that was passed to fizz_buzz, and use it again
+here)
+Get input from the player
+Check the players input against the correct answer
+If it's not correct, break out of the loop Print a "Wrong!" message
+Repeat until the game reaches 100
+Print a suitable "Congratulations!" message
+

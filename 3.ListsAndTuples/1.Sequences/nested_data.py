@@ -38,26 +38,26 @@ albums = [
      ),
 ]
 
-for name, artist, year, songs in albums:
-    print("Album: {}, Artist: {}, Year: {}, Songs: {}"
-          .format(name, artist, year, songs))
-print()
-
-album = albums[3] # print the album by budgies
-print(album)
-
-songs = album[3] # print the songs from the budgie album
-print(songs)
-
-song = songs[2] # print the second song by the budgies
-print(song)
-
-print(song[1])
-
-mayhem = albums[3][3][2][1]
-print(mayhem)
-
-print(albums[3]) # third album
-print(albums[3][3]) # songs on the third album
-print(albums[3][3][2]) # second song on the third album tuple
-print(albums[3][3][2][1]) # second song title on the third album
+# for name, artist, year, songs in albums:
+#     print("Album: {}, Artist: {}, Year: {}, Songs: {}"
+#           .format(name, artist, year, songs))
+# print()
+#
+# album = albums[3] # print the album by budgies
+# print(album)
+#
+# songs = album[3] # print the songs from the budgie album
+# print(songs)
+#
+# song = songs[2] # print the second song by the budgies
+# print(song)
+#
+# print(song[1])
+#
+# mayhem = albums[3][3][2][1]
+# print(mayhem)
+#
+# print(albums[3]) # third album
+# print(albums[3][3]) # songs on the third album
+# print(albums[3][3][2]) # second song on the third album tuple
+# print(albums[3][3][2][1]) # second song title on the third album

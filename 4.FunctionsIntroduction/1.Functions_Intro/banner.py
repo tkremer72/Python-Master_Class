@@ -1,5 +1,5 @@
 # Function that creates a banner neatly formatted text
-def banner_text(text=" ", screen_width=80):
+def banner_text(text: str = " ", screen_width: int = 80) -> None:
     """ Print a string centered, with ** either side.
 
     :param text:  The string to print.

@@ -27,7 +27,9 @@ def get_integer(prompt):
 # print(get_integer.__doc__)
 # print("*" * 80)
 
+
 highest = 1000
+
 answer = random.randint(1, highest)
 print(answer)  # TODO: Remove after testing.
 #  modify game to use a while loop to allow the player to continue guessing if guess is wron

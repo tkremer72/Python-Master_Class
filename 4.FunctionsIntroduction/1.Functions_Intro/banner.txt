@@ -1,2 +1,14 @@
 Create a function that will center the text in the window and also
 include the asterisks as borders.
+
+Challenge
+
+Create the Docstring for this function.
+
+You should document the exception that can be raised.
+
+Search on-line for something like python exception in docstring to see
+how to do that.
+
+Hint: The return value shouldn't be documented - this function doesn't
+return anything useful.

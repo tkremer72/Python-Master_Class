@@ -1,0 +1,2 @@
+Create a function that will center the text in the window and also
+include the asterisks as borders.
